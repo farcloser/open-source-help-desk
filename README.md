@@ -1,5 +1,7 @@
 # Open-source projects help-desk
 
+https://dev.farcloser.world/open-source-help-desk/GIT.html
+
 While contributing to open-source projects is one of the great pleasures and
 most rewarding experiences for software engineers, it usually comes with 
 hurdles, constraints, and unfamiliar rituals, that may feel intimidating, 
