@@ -28,13 +28,13 @@ More generally, when contributing, you will be better off being fluent in dealin
 rewriting history.
 
 While not particularly advanced, this cheat-sheet aims at covering most of these questions,
-hopefully helping new contributors get the git gymnastics out of the way, and freeing them to 
+hopefully helping new contributors get the git gymnastics out of the way, and freeing them to
 focus on the gist of their contributions instead of the mundanities.
 
 ## The DCO signoff
 
 The [DCO](https://wiki.linuxfoundation.org/dco), often
-required by open-source project for legal reasons, is a "per-commit sign-off" 
+required by open-source project for legal reasons, is a "per-commit sign-off"
 stating that you agree to the terms of the [Developer Certificate of Origin](https://developercertificate.org/)
 for that specific commit (<- please read it - it is very short).
 
@@ -140,7 +140,7 @@ or waiting for a review.
 
 As the "main" branch drifts away, your work may become stale, or even grow conflicts.
 
-More generally, it is just good practice to "rebase" your work regularly on top of the 
+More generally, it is just good practice to "rebase" your work regularly on top of the
 latest state of the main branch so that your work really applies to the "now" instead of
 "yesterday".
 
@@ -266,7 +266,7 @@ these branches locally for a while.
 Finally, you may very well start working on something and have it only locally
 for an extended period of time before you send it as a PR.
 
-Before you know it, you will end-up with a large set of local branches, and thanks to your 
+Before you know it, you will end-up with a large set of local branches, and thanks to your
 ridiculous naming non-strategy (`fix-that-shit`, `that-would-be-nice`, `tentative-cleanup`, `omg`),
 you just can't tell anymore what is what, what matters, what should be deleted, or even what got merged.
 
