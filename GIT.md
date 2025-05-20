@@ -11,6 +11,7 @@
 1. [Manage commits sets](#rebasing-interactively-and-managing-a-set-of-individual-commits-for-large-bodies-of-work)
 1. [Naming branches](#name-your-branches-in-a-consistent-manner)
 1. [Naming stashes](#-name-your-stashes)
+1. [Managing remotes](#managing-remotes)
 1. [FAQ](#FAQ)
 
 ## Preamble
@@ -301,6 +302,22 @@ git stash list
 ```
 
 Your future self will thank you.
+
+## Managing remotes
+
+```bash
+git remote -v
+git remote add myremote git@github.com:owner/repo.git
+# git remote delete myremote
+git fetch --all
+git branch -v -a
+# Track a remote branch
+git checkout -b something-foo myremote/remotebranch
+# Or create a new one and set the remote
+git checkout -b something-foo
+git push --set-upstream myremote/remotebranch something-foo
+git push my-remote HEAD:remotebranch
+```
 
 ## FAQ
 
